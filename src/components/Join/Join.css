@@ -1,0 +1,203 @@
+.nft__join-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #555ecd;;
+}
+.nft__join-svg{
+    position: absolute;
+    z-index: 1;
+    left: 120px;
+    top: 40px;
+}
+.nft__join{
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    height: 316px;
+}
+
+.nft__join-left{
+    flex: 1;
+}
+.nft__join-right{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+
+.nft__join-right-card{
+    width: 250px;
+    height: 250px;
+    margin-right: 16px;
+    padding: 8px;
+    background: var(--table-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    position: relative;
+}
+.nft__join-right-card-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background: var(--table-bg-color);
+    border-radius: 50%;
+    position: absolute;
+    top: -14px;
+}
+.nft__join-right-title{
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.nft__join-right-title h1{
+    font-weight: 600;
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--text-color);
+}
+.nft__join-right-title p{
+    word-break: break-word;
+    max-width: 220px;
+    text-align: center;
+    font-weight: 600;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--info-text-color);
+}
+.nft__join-right-bnts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nft__join-right-bnts a{
+    padding: 8px 26px;
+    margin-bottom: .5rem;
+    height: 40px;
+    font-size: 14px;
+    text-align: center;
+}
+.nft__join-right-card-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.nft__join-right-card-bottom-title{
+    font-weight: 400;
+    white-space: nowrap;
+    font-size: 10px;
+    line-height: 18px;
+    text-decoration: underline;
+    color: var(--sub-text-color);
+    
+}
+.nft__join-right-card-bottom-title:hover{
+    color: var(--select-text-color);
+    word-wrap: nowrap;
+}
+.nft__join-left{
+    margin-right: 2rem;
+}
+.nft__join-left h1{
+    font-weight: 600;
+    font-family: inherit;
+    white-space: pre;
+    font-size: 36px;
+    line-height: 52px;
+    color: var(--button-text-color);
+    margin-bottom: 16px;
+}
+.nft__joinf-left-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--button-text-color);
+    margin-bottom: 32px;
+}
+
+.nft__join-left-btn{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    max-width: 466px;
+    background: var(--table-bg-color);
+    border-radius: 10px;
+    height: 44px;
+    justify-content: center;
+    padding-right: 2px;
+    z-index: 1;
+    color: var(--text-color);
+}
+.nft__join-left-btn input{
+    width: 100%;
+    flex: 1;
+    color: var(--text-color);
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: flex-start;
+    margin-right: 12px;
+    font-size: 14px;
+    line-height: 22px;
+    background-color: var(--table-bg-color);
+    align-items: center;
+    padding-left: 16px;
+}
+.nft__join-left-btn-send{
+    border-radius: 8px;
+    width: 136px;
+    height: 40px;
+    border: none;
+    color: var(--tab-button-text-color);
+    background: var(--main-color);
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+    cursor: pointer;
+}
+.nft__join-left-btn-send:hover{
+    background: var(--main-color-deep);
+    color: var(--tab-button-text-color);
+}
+
+@media screen and (max-width: 1050px) {
+    .nft__join{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .nft__join-left{
+        flex-direction: column;
+        /* width: 100%; */
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    
+}

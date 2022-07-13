@@ -1,0 +1,63 @@
+.nft__dataapi-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    background-color: #555ecd;
+}
+
+.nft__dataapi{
+    padding: 40px 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.nft__dataapi-left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+    /* gap: 16px; */
+}
+.nft__dataapi-left-title{
+    font-weight: 600;
+    font-family: inherit;
+    color: var(--button-text-color);
+    margin-bottom: 1rem;
+}
+.nft__dataapi-left-text{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+    font-family: inherit;
+    color: var(--button-text-color);
+    margin-bottom: 16px;
+}
+.nft__dataapi-left-list{
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--button-text-color);
+}
+.nft__dataapi-left-btn{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1030px) {
+    .nft__dataapi{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nft__dataapi-left{
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+}

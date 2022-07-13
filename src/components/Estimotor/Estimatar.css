@@ -1,0 +1,40 @@
+.nft__estimatar-section{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 22px 0;
+    background: var(--n20);
+}
+.nft__estimatar-svg{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+.nft__estimatar{
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+}
+.nft__estimatar h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--text-color);
+}
+.nft__estimatar-disabled{
+    font-weight: 600;
+    font-family: inherit;
+    cursor: default;
+    font-size: 18px;
+    line-height: 27px;
+    margin-right: 16px;
+    padding: 8px 26px;
+    background-color: var(--main-color-10);
+    color: var(--main-color);
+    /* background-color: #29292e; */
+}

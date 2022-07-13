@@ -1,0 +1,154 @@
+.nft__research-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: var(--table-bg-color);
+}
+
+.nft__research{
+    margin: 106px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.nft__research-news{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    max-width: 1100px;
+    gap: 1rem;
+
+    /* height: 450px; */
+}
+.nft__research-news-left{
+    flex: 1;
+    height: 100%;
+    /* height: 380px */
+}
+
+.nft__research-news-right{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+.nft__research-news-new{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: var(--page-color);
+}
+
+.nft__research-news-new{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.nft__research-news-new:hover{
+    box-shadow: var(--hover-box-shadow);
+    background-color: var(--card-bg-color);
+}
+.nft__research-news-left .nft__research-news-new{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nft__research-news-right .nft__research-news-new{
+    flex-direction: row-reverse;
+}
+.nft__research-news-new-pic{
+    flex: 1;
+}
+.nft__research-news-new-pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.nft__research-news-new-content{
+    flex: 2;
+}
+.nft__research-news-right .nft__research-news-new-content{
+    margin-right: 10px;
+}
+.nft__research-news-left .nft__research-news-new-content{
+    margin-top: 1rem;
+}
+.nft__research-new-time{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nft__research-new-time div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    color: var(--sub-text-color);
+    margin: 0px;
+    white-space: normal;
+}
+.nft__research-news-new-content h2{
+    color: var(--text-color);
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: normal;
+    font-size: 16px!important;
+    line-height: 24px!important;
+}
+.nft__research-news-new-content ul, .nft__research-news-new-content p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    color: var(--sub-text-color);
+    margin: 0px;
+    white-space: normal;
+}
+
+.nft__research-news-new-content li{
+    margin-left: 1.5rem;
+}
+
+.nft__research-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nft__research-title-left h1{
+    font-size: 32px;
+    font-style: normal;
+    color: var(--text-color);
+}
+.nft__research-title-left p{
+    font-size: 18px;
+    width: 100%;
+    margin-top: 16px;
+    color: var(--sub-text-color);
+}
+.nft__research-news-right-last{
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 1110px) {
+    .nft__research-news{
+        flex-direction: column;
+    }
+    .nft__research-title{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .nft__research-title-right{
+        margin-top: 2rem;
+    }
+}

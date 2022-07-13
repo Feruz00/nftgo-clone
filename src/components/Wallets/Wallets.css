@@ -1,0 +1,156 @@
+.nft__wallets_section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353438;
+    padding-bottom: 105px;
+    position: relative;
+}
+.ntf__wallet_whale{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+}
+.nft__wallets{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.nft__wallets-title{
+    text-align: center;
+}
+.nft__wallets-title h1{
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-family: inherit;
+    font-size: 36px;
+    line-height: 36px;
+    color: var(--button-text-color);
+}
+.nft__wallets-title p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--button-text-color);
+}
+.nft__wallets-btns{
+    margin-top: 77px;
+    display: flex;
+    flex-direction: row;
+}
+.nft__wallets-btns-btn{
+    width: 280px;
+    height: 228px;
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    margin-right: 32px;
+    text-align: center;
+}
+.nft__wallets-btns-btn h4{
+    font-weight: 600;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--info-text-color);
+    margin-bottom: 24px;
+}
+.nft__wallets-btns-btn-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+.nft__wallets-whale{
+    color: var(--text-color);
+    margin-right: 4px;
+    font-weight: 600;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.nft__wallets-title-word{
+    color: #f2994a;
+}
+.nft__wallets-btns-btn-first{
+    color: #f3aa3b;
+}
+.nft__wallets-btns-btn-second{
+    color: var(--blue-deep);
+}
+.nft__wallets-btns-btn-third{
+    color: var(--purple-deep);
+}
+
+.nft__wallets-btns-btn-number{
+    font-weight: 600;
+    font-family: inherit;
+    font-size: 28px;
+    line-height: 36px;
+    color: var(--main-color);
+    margin-right: 4px;
+}
+.nft__wallets-bottom{
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nft__wallets-bottom-btn p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--tab-button-text-color);
+    background-color: var(--main-color);
+    border-radius: 100px;
+    padding: 8px 10px;
+    height: 4rem;
+    min-width: 300px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 27px;
+
+}
+.nft__wallets-btns-btn{
+    transition: .5s;
+}
+.nft__wallets-btns-btn:hover{
+    transform: translateY(-10px);
+}
+.nft__wallets-bottom-btn p:hover{
+    background-color: var(--main-color-deep);
+    color: var(--button-text-color);
+}
+.nft__wallets-btns-item{
+    cursor: pointer;
+    color: var(--text-color);
+}
+.nft__wallets-btns-item:hover{
+    background: var(--main-color);
+    color: var(--button-text-color);
+}
+@media screen and (max-width: 1000px) {
+    .nft__wallets-btns-btn{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .nft__wallets-btns{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

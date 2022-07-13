@@ -1,0 +1,56 @@
+.nft__slider-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--page-color);
+}
+.nft__slider-img{
+    margin-left: 16px;
+    border-radius: 14px;
+    height: 144px;
+    width: 392px;
+    object-fit: cover;
+}
+.nft__slider{
+    width: 100%;
+    max-width: 1250px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    position: relative;
+}
+.nft__slider-left{
+    position: absolute;
+    left: -20px;
+    top: calc(50% - 22px);
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 3px rgb(90 102 249 / 8%);
+    cursor: pointer;
+    background-color: var(--table-bg-color);
+}
+.nft__slider-right{
+    position: absolute;
+    right: -22px;
+    top: calc(50% - 22px);
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 3px rgb(90 102 249 / 8%);
+    cursor: pointer;
+    background-color: var(--table-bg-color);
+}
+
+@media screen and (max-width: 1260px) {
+    .nft__slider{
+        max-width: 900px;
+    }
+}

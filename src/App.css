@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+a:link{
+    text-decoration: none;
+}
+.btn{
+    padding: 1rem 2rem;
+    border-radius: 70px;
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+}
+.btn-primary{
+    color: var(--tab-button-text-color);
+    background-color: var(--main-color);
+}
+.btn-primary:hover{
+    background-color: var(--main-color-deep);
+    color: var(--button-text-color);
+}
+.btn-secondary{
+    background-color: #535572;
+    border: 1px solid var(--button-text-color);
+    color: var(--button-text-color);
+}
+.btn-secondary:hover{
+    background-color: var(--button-text-color);
+    color: var(--main-color);
+}
+.btn-light-primary{
+    background-color: var(--main-color-10);
+    color: var(--main-color);
+}
+.btn-light-primary:hover{
+    background-color: var(--main-color-10);
+    color: var(--main-color);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-light-secondary{
+    background-color: var(--card-bg-color);
+    color: var(--dark-gray);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-light-secondary:hover{
+    color: var(--info-text-color);
+    background-color: var(--gray);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-light{
+    background: var(--card-bg-color);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-light:hover{
+    background-color: var(--main-color-deep);
+    color: var(--button-text-color);
 }
